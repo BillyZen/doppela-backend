@@ -7,7 +7,7 @@ To enable testing, create a new collection on Atlas and paste the URI into the s
 To seed the data required for this repo to work correctly, you will need to run the file seed-prod.js located in the /data/ folder. To run this file type `node seed-prod.js` and ensure that the MongoDB Atlas URI is located in the secretInfo file created earlier.
 
 ##Testing
-We created the Vested Back End using Test Driven Development (TDD) methodology.
+I created the Doppela Back End using Test Driven Development (TDD) methodology.
 This repo comes with a testing suite developed using Mocha and Chai. To enable testing, ensure you have setup your test database and linked to it using the Mongo URI (described above).
 
 To install the testing suite, run:
